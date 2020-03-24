@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "wit",
+  "version": "${version}",
+
+  "name": "What is this?",
+  "description": "What is this?",
+  "authors": [
+    "modmuss50"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.modmuss50.wit.WhatIsThis"
+    ]
+  },
+  "mixins": [
+    "wit.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.4.7"
+  }
+}
